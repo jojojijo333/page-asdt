@@ -1,0 +1,135 @@
+html {
+    display: flex;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    background-color: #919191;
+    padding: 0 90px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.goldkey {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.phone, .email {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Main 1st part */
+
+.awesome {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px 0;
+}
+
+.hotelbell {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.maintext {
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.secondtext {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* Main 2nd part */
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #292928;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.services {
+    text-align: center;
+    width: 200px;
+}
+
+.text {
+    color: #292928;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.infoimages {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.infoimg {
+    width: 150px;
+    height: 150px;
+    border: solid #a36c32;
+    border-radius: 10px;
+}
+
+/* Main 3rd part */
+
+
+@font-face {
+    font-family: "Lato light 300";
+    src: url("Lato-Light.ttf");
+}
+
+.quote {
+    background-color: gold;
+    color: #292928;
+    padding: 50px 200px;
+    font-size: 30px;
+    font-family: "Lato light 300", sans-serif;
+}
+
+.quote p {
+    padding: 0 0 10px;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    background-color: #a36c32;
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
